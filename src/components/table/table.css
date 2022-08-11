@@ -1,0 +1,43 @@
+table {
+    border: 1px solid #eeeeee;
+    width: 100%;
+    border-collapse: collapse; 
+    background: white;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+table thead tr {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    height: 56px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+table thead tr th {
+    text-align: left;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+table thead tr th:hover {
+    background: #eeeeee;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+table tbody tr td {
+    color: rgb(0, 0, 0, 0.8);
+    padding: 0 20px;
+    text-align: left;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #eeeeee;
+    height: 52px;
+}
+
+table tbody tr:hover {
+    background: #eeeeee;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
